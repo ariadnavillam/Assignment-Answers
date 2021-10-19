@@ -8,11 +8,11 @@ class SeedStock
 
 
     def initialize (params = {})
+        @Seed_Stock = params.fetch(:Seed_Stock, "AX000000") 
         @Mutant_Gene_ID = params.fetch(:Mutant_Gene_ID, "X000")
-        @Seed_Stock = params.fetch(:Seed_Stock, "X000") 
-        @Last_Planted = params.fetch(:Last_Planted, "X000")
-        @Storage = params.fetch(:Storage, "X000")
-        @Grams_Remaining = params.fetch(:Grams_Remaining, "X000").to_i
+        @Last_Planted = params.fetch(:Last_Planted, "DD/MM/YYYY")
+        @Storage = params.fetch(:Storage, "camaX")
+        @Grams_Remaining = params.fetch(:Grams_Remaining, "X").to_i
     end
 
     def plant(grams=7)
@@ -22,6 +22,7 @@ class SeedStock
             @Grams_Remaining = new_grams
         
         else
+            #if the grams remaining is less than the grams we want to plant, the seeds left are set to 0 and a warning message is printed
             @Grams_Remaining = 0
             puts "WARNING! We have run out of Seed Stock #{@Seed_Stock}."
          end
@@ -35,10 +36,14 @@ class SeedStock
         return @Seed_Stock
     end
 
-    def get_properties #this methos puts each of the properties of each object to print to a new file
-        return "#{@Seed_Stock}\t#{@Mutant_Gene_ID}\t#{@Last_Planted}\t#{@Storage}\t#{@Grams_Remaining}\n"
+    def get_all #this methos puts each of the properties of each object 
+        all = Array.new
+        instance_variables.map do |ivar| 
+            all.push(instance_variable_get ivar)
+        end
+        line = all.join("\t")
+        return line
     end
-
         
 
 end

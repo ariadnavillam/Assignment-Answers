@@ -17,7 +17,7 @@ class HybridCross
         
     end
 
-    def get_parents
+    def get_parents 
         return [@Parent1, @Parent2]
     end
 

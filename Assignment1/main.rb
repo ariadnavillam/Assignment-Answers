@@ -2,6 +2,7 @@ require './gene'
 require './hybrid_cross'
 require './seed_stock'
 
+#FUNCTION DEFINITION
 def load_from_file(path_file) 
     # function to load the information from the three different files
     count = 0
@@ -43,12 +44,12 @@ else
     count = 0
     #Correct file type?
     ARGV.each do |argument|
-        unless argument.to_s.match("\\.rb$") || argument.to_s.match("\\.tsv$")
+        unless argument.to_s.match("\\.tsv$")
             puts "Wrong file #{argument}."
             puts "Input: $ ruby main.rb  gene_information.tsv  seed_stock_data.tsv  cross_data.tsv  new_stock_file.tsv"
             exit(1)
         end 
-        #The files exists? (except the last one that we have to create count = 3)
+        #The files exist? (except the last one that we have to create count = 3)
         unless File.exist?(argument) || count == 3
             puts "Wrong file #{argument}: does not exist."
             exit(0)
@@ -58,29 +59,32 @@ else
     end
 end
 
+##READ FILES
 #convert the hash returned by the load_from_file function into a hash of objects for:
-
-#the cross_data file that contains hybridcross 
-cross_data = load_from_file("cross_data.tsv")
-cross_data.each_key do |key|
-    cross_data[key] = HybridCross.new(cross_data[key])
-end
 #the gene_information file that contains the genes
-genes_data = load_from_file("gene_information.tsv")
+genes_data = load_from_file(ARGV[0])
 genes_data.each_key do |key|
     genes_data[key] = Gene.new(genes_data[key])
 end
 #the seed_stock_data file that contains the relation between the seeds and the genes
-seedstock_data = load_from_file("seed_stock_data.tsv")
+seedstock_data = load_from_file(ARGV[1])
 seedstock_data.each_key do |key|
     seedstock_data[key] = SeedStock.new(seedstock_data[key])
 end
+#the cross_data file that contains hybridcross 
+cross_data = load_from_file(ARGV[2])
 
+cross_data.each_key do |key|
+    cross_data[key] = HybridCross.new(cross_data[key])
+end
+
+##PLANTING
 #plant 7 grams of each seed
 seedstock_data.each_key do |seed|
     seedstock_data[seed].plant
 end
 
+##LINKED GENES
 # for each cross_data entry evaluate if the genes of the seeds are linked
 cross_data.each_key do |key|
     parent_seeds = cross_data[key].get_parents
@@ -96,22 +100,27 @@ cross_data.each_key do |key|
     end
 end
 
+##WRITE FILE
 # write new seed stock data to the file
 File.open("file_new.tsv", "w") do |f| 
     count = 0
     first_line = Array.new
     seedstock_data.each_pair do |key,value| #each key and value of the seed stock hash
-        if count == 0 #in the first line we need the name of each of the properties of the object as header
+        if count == 0 
+            #in the first line we need the name of each of the properties of the object as header
             seedstock_data[key].instance_variables.each do |f|
-                first_line.push(f[1,f.length]) #save the property names 
+                first_line.push(f[1,f.length]) #save the property names without the :
             end
             f.write(first_line.join("\t")+"\n") #print as a tsv
         end
-        f.write(value.get_properties) #prints all the properties of that instance
+        #write each objects properties
+        f.write(value.get_all + "\n") #prints all the properties of that instance
         count +=1
     end 
+    
 end
 
+##OUTPUT
 #write final report: check if there are linked genes
 puts
 puts "Final Report: \n"
@@ -120,7 +129,9 @@ genes_data.each_key do |key|
 end
 puts
 
-#To test an incorrect gene ID
+#OPTIONAL
+#To test an incorrect gene ID we try to create a new gene with ID XXXX
+puts "-------------------------------"
 Gene.new(:Gene_ID => "XXXX")
 
 

@@ -6,13 +6,15 @@ class Gene
     attr_accessor :linked_genes
 
     def initialize (params = {})
-        gene_id = params.fetch(:Gene_ID, "X000")
+        #test if the gene id is correct
+        gene_id = params.fetch(:Gene_ID, "AT00000000")
             unless gene_id.match(/A[Tt]\d[Gg]\d\d\d\d\d/)
                 puts "Error. Wrong gene ID #{gene_id}."
-                puts 'Gene ID for Arabidopsis Thaliana have the format: /A[Tt]\d[Gg]\d\d\d\d\d/'
+                puts 'Gene ID for Arabidopsis Thaliana have the format: AT1G69120.'
                 exit(1)
             else 
-                @Gene_ID = params.fetch(:Gene_ID, "X000")
+                #initialize the variables
+                @Gene_ID = params.fetch(:Gene_ID, "AT00000000")
                 @Gene_name = params.fetch(:Gene_name, "nameX")
                 @mutant_phenotype = params.fetch(:mutant_phenotype, "phenotype")
                 @linked_genes = Array.new
@@ -25,6 +27,7 @@ class Gene
     end
 
     def is_linked(linked_gene)
+        #method to save a linked gene if it exists as a Gene
         if linked_gene.is_a?(Gene)
             @linked_genes.push(linked_gene)
         else 
@@ -33,6 +36,7 @@ class Gene
     end
 
     def check_linked_genes
+        #print all linked genes if there is any.
         unless @linked_genes.length == 0
             @linked_genes.each do |gene|
                 puts "#{@Gene_name} is linked to #{gene.get_name}."
