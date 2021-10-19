@@ -38,7 +38,7 @@ end
 #Correct number of arguments?
 if ARGV.length != 4
     puts "Wrong number of arguments."
-    puts "Input: $ ruby main.rb  gene_information.tsv  seed_stock_data.tsv  cross_data.tsv  new_stock_file.tsv"
+    puts "Input: $ ruby process_database.rb  gene_information.tsv  seed_stock_data.tsv  cross_data.tsv  new_stock_file.tsv"
     exit(1)
 else 
     count = 0
@@ -46,7 +46,7 @@ else
     ARGV.each do |argument|
         unless argument.to_s.match("\\.tsv$")
             puts "Wrong file #{argument}."
-            puts "Input: $ ruby main.rb  gene_information.tsv  seed_stock_data.tsv  cross_data.tsv  new_stock_file.tsv"
+            puts "Input: $ ruby process_database.rb  gene_information.tsv  seed_stock_data.tsv  cross_data.tsv  new_stock_file.tsv"
             exit(1)
         end 
         #The files exist? (except the last one that we have to create count = 3)
@@ -102,7 +102,7 @@ end
 
 ##WRITE FILE
 # write new seed stock data to the file
-File.open("file_new.tsv", "w") do |f| 
+File.open(ARGV[3], "w") do |f| 
     count = 0
     first_line = Array.new
     seedstock_data.each_pair do |key,value| #each key and value of the seed stock hash
