@@ -16,7 +16,7 @@ $ ruby process_database.rb  gene_information.tsv  seed_stock_data.tsv  cross_dat
 
 This script takes a list of genes and creates interaction networks with them, searching for interactions in the [IntAct Database](https://www.ebi.ac.uk/intact/home), and then annotates the networks with a KEGG pathway and GO terms using web APIs.
 
-Use:
+### Use:
 ```bash
 $ ruby main.rb gene_file.txt output.txt [intact-miscore] [depth]
 ```
@@ -26,4 +26,10 @@ $ ruby main.rb gene_file.txt output.txt [intact-miscore] [depth]
 - *\[depth]\(optional)*: the depth of the search. Value can go from 1 to 3 (int). 1 being direct interaction, 2 interaction by one intermediate gene that is not on the list and 3 interaction by two intermediate genes*. Values bigger than 3 take too much time.
 
 *The intermediate genes are not printed in the output.
+
+**Warning**: errors are not printed in the screen. Check the file *log.txt* for errors. 
+
+### Requirements
+**Gems**: "rest-client", "CSV" and "json" must be installed.
+
 
