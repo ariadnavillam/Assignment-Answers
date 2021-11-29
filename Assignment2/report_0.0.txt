@@ -1,0 +1,595 @@
+-----------------------------------------------------
+Network 1
+Number of interactors: 44
+Gene list:
+ At4g17460 (HAT1)
+ At2g13360 (AGT1)
+ At5g14740 (BCA2)
+ At5g15850 (COL1)
+ At5g17300 (RVE1)
+ At1g03130 (PSAD2)
+ At3g16250 (PNSB3)
+ At3g62410
+ At2g30950 (FTSH2)
+ At3g49160 (PKP4)
+ At1g76080 (CDSP32)
+ At1g71030 (ATMYBL2)
+ At1g37130 (NIA2)
+ At4g09650 (ATPD)
+ At4g37610 (BT5)
+ At5g19120
+ At4g02770 (psaD1)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At1g29920 (AB165)
+ At1g14280 (PKS2)
+ At3g48360 (BT2)
+ At2g17880 (DJC24)
+ At3g28220
+ At5g20250 (RFS6)
+ At5g48300 (APS1)
+ At3g01500 (BCA1)
+ At2g43010 (EN102)
+ At4g33010 (GLDP1)
+ At5g04140 (GLU1)
+ At1g42970 (GAPB)
+ At2g47930 (AGP26)
+ At2g39730 (RCA)
+ At3g55800
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At5g01530
+ At1g69870
+ At5g38990
+ At3g61260
+ At5g43750 (PNSB5)
+ At4g22890 (PGRL1A)
+ At1g11850
+ At4g28780
+KEGG pathway: ath00250 (Alanine, aspartate and glutamate metabolism)
+GO terms: 
+ GO:0042128 (nitrate assimilation)
+ GO:0016311 (dephosphorylation)
+ GO:0006508 (proteolysis)
+ GO:0009416 (response to light stimulus)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 2
+Number of interactors: 33
+Gene list:
+ At1g03130 (PSAD2)
+ At3g49160 (PKP4)
+ At1g76080 (CDSP32)
+ At4g02770 (psaD1)
+ At4g09650 (ATPD)
+ At1g37130 (NIA2)
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+ At3g48360 (BT2)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At3g16250 (PNSB3)
+ At1g29920 (AB165)
+ At1g71030 (ATMYBL2)
+ At5g15850 (COL1)
+ At1g14280 (PKS2)
+ At2g17880 (DJC24)
+ At4g05180 (PSBQ2)
+ At5g43750 (PNSB5)
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At3g01500 (BCA1)
+ At5g14740 (BCA2)
+ At3g28220
+ At5g20250 (RFS6)
+ At5g48300 (APS1)
+ At4g19170 (AtNCED4)
+ At1g11850
+ At2g30950 (FTSH2)
+ At3g21870
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0005975 (carbohydrate metabolic process)
+ GO:0006096 (glycolytic process)
+ GO:0009416 (response to light stimulus)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 3
+Number of interactors: 38
+Gene list:
+ At1g76080 (CDSP32)
+ At3g49160 (PKP4)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At1g37130 (NIA2)
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+ At3g48360 (BT2)
+ At3g16250 (PNSB3)
+ At5g14740 (BCA2)
+ At2g17880 (DJC24)
+ At5g15850 (COL1)
+ At4g09650 (ATPD)
+ At1g14280 (PKS2)
+ At4g37610 (BT5)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At1g29920 (AB165)
+ At5g43750 (PNSB5)
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At3g01500 (BCA1)
+ At1g71030 (ATMYBL2)
+ At3g28220
+ At5g20250 (RFS6)
+ At4g19170 (AtNCED4)
+ At4g22890 (PGRL1A)
+ At5g48300 (APS1)
+ At4g21210 (RP1)
+ At1g76100 (PETE1)
+ At2g30950 (FTSH2)
+ At3g54050 (CFBP1)
+ At3g61260
+ At4g39710 (PNSL4)
+ At4g09010 (TL29)
+KEGG pathway: ath00010 (Glycolysis / Gluconeogenesis)
+GO terms: 
+ GO:0006096 (glycolytic process)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+ GO:0005975 (carbohydrate metabolic process)
+ GO:0015979 (photosynthesis)
+ GO:0016311 (dephosphorylation)
+-----------------------------------------------------
+Network 4
+Number of interactors: 36
+Gene list:
+ At4g17460 (HAT1)
+ At1g71030 (ATMYBL2)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At4g22890 (PGRL1A)
+ At3g16250 (PNSB3)
+ At2g17880 (DJC24)
+ At5g17300 (RVE1)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At1g29920 (AB165)
+ At5g15850 (COL1)
+ At1g37130 (NIA2)
+ At3g48360 (BT2)
+ At3g49160 (PKP4)
+ At1g14280 (PKS2)
+ At4g37610 (BT5)
+ At1g69870
+ At5g38990
+ At5g43750 (PNSB5)
+ At3g61260
+ At3g28220
+ At3g01500 (BCA1)
+ At2g01890 (PAP8)
+ At5g05690 (CYP90A1)
+ At2g47930 (AGP26)
+ At5g14740 (BCA2)
+ At4g39710 (PNSL4)
+ At5g11070
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At1g20020 (LFNR2)
+ At5g55620
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0006096 (glycolytic process)
+ GO:0009416 (response to light stimulus)
+ GO:0042128 (nitrate assimilation)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 5
+Number of interactors: 27
+Gene list:
+ At2g43010 (EN102)
+ At2g47930 (AGP26)
+ At2g13360 (AGT1)
+ At5g01530
+ At4g33010 (GLDP1)
+ At3g01500 (BCA1)
+ At5g04140 (GLU1)
+ At5g15850 (COL1)
+ At3g61260
+ At1g69870
+ At5g38990
+ At3g28220
+ At4g22890 (PGRL1A)
+ At5g43750 (PNSB5)
+ At1g42970 (GAPB)
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At5g14740 (BCA2)
+ At1g11850
+ At4g21210 (RP1)
+ At1g76100 (PETE1)
+ At3g48360 (BT2)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+KEGG pathway: ath04075 (Plant hormone signal transduction)
+GO terms: 
+ GO:0050790 (regulation of catalytic activity)
+ GO:0009416 (response to light stimulus)
+ GO:0006468 (protein phosphorylation)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 6
+Number of interactors: 25
+Gene list:
+ At1g69870
+ At5g38990
+ At4g22890 (PGRL1A)
+ At5g43750 (PNSB5)
+ At3g61260
+ At3g28220
+ At3g01500 (BCA1)
+ At2g47930 (AGP26)
+ At2g01890 (PAP8)
+ At5g14740 (BCA2)
+ At4g39710 (PNSL4)
+ At5g05690 (CYP90A1)
+ At1g11850
+ At5g11070
+ At4g28780
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At3g16250 (PNSB3)
+ At2g30950 (FTSH2)
+ At2g43010 (EN102)
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+ GO:0050790 (regulation of catalytic activity)
+ GO:0006508 (proteolysis)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 7
+Number of interactors: 28
+Gene list:
+ At4g22890 (PGRL1A)
+ At1g69870
+ At5g38990
+ At5g43750 (PNSB5)
+ At3g28220
+ At3g61260
+ At4g28780
+ At1g11850
+ At2g39730 (RCA)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At3g01500 (BCA1)
+ At5g14740 (BCA2)
+ At2g47930 (AGP26)
+ At2g13360 (AGT1)
+ At5g01530
+ At2g01890 (PAP8)
+ At4g39710 (PNSL4)
+ At5g17300 (RVE1)
+ At4g17460 (HAT1)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At3g16250 (PNSB3)
+ At1g29920 (AB165)
+KEGG pathway: ath00710 (Carbon fixation in photosynthetic organisms)
+GO terms: 
+ GO:0050790 (regulation of catalytic activity)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+ GO:0009416 (response to light stimulus)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 8
+Number of interactors: 11
+Gene list:
+ At1g13930
+ At3g46780 (PTAC16)
+ At5g43750 (PNSB5)
+ At5g14740 (BCA2)
+ At5g38990
+ At3g28220
+ At3g01500 (BCA1)
+ At1g03130 (PSAD2)
+ At1g69870
+ At4g28780
+ At1g11850
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0055085 (transmembrane transport)
+ GO:0042128 (nitrate assimilation)
+ GO:0006629 (lipid metabolic process)
+ GO:0015976 (carbon utilization)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 9
+Number of interactors: 11
+Gene list:
+ At5g20250 (RFS6)
+ At4g02770 (psaD1)
+ At2g17880 (DJC24)
+ At1g03130 (PSAD2)
+ At3g16250 (PNSB3)
+ At4g19170 (AtNCED4)
+ At5g17300 (RVE1)
+ At4g17460 (HAT1)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At1g29920 (AB165)
+KEGG pathway: ath00052 (Galactose metabolism)
+GO terms: 
+ GO:0016121 (carotene catabolic process)
+ GO:0048511 (rhythmic process)
+ GO:0005975 (carbohydrate metabolic process)
+ GO:0009416 (response to light stimulus)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 10
+Number of interactors: 22
+Gene list:
+ At3g01500 (BCA1)
+ At1g76100 (PETE1)
+ At5g17300 (RVE1)
+ At5g15850 (COL1)
+ At4g21210 (RP1)
+ At4g17460 (HAT1)
+ At3g48360 (BT2)
+ At1g71030 (ATMYBL2)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At2g34420 (Lhb1B2)
+ At1g29910 (AB180)
+ At3g16250 (PNSB3)
+ At1g29920 (AB165)
+ At5g48300 (APS1)
+ At1g37130 (NIA2)
+ At1g14280 (PKS2)
+ At1g76080 (CDSP32)
+ At3g62410
+ At2g30950 (FTSH2)
+ At2g17880 (DJC24)
+ At2g43010 (EN102)
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0006468 (protein phosphorylation)
+ GO:0006508 (proteolysis)
+ GO:0042128 (nitrate assimilation)
+ GO:0009416 (response to light stimulus)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 11
+Number of interactors: 22
+Gene list:
+ At5g38990
+ At3g28220
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At3g55800
+ At3g62410
+ At5g35630 (GS2)
+ At3g50820 (PSBO2)
+ At4g22890 (PGRL1A)
+ At3g01500 (BCA1)
+ At5g14740 (BCA2)
+ At2g47930 (AGP26)
+ At2g13360 (AGT1)
+ At5g01530
+ At1g42970 (GAPB)
+ At2g39730 (RCA)
+ At3g61260
+ At5g15850 (COL1)
+ At3g16250 (PNSB3)
+ At2g30950 (FTSH2)
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+ GO:0006508 (proteolysis)
+ GO:0050790 (regulation of catalytic activity)
+ GO:0016311 (dephosphorylation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 12
+Number of interactors: 2
+Gene list:
+ At4g22890 (PGRL1A)
+ At1g20020 (LFNR2)
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0015979 (photosynthesis)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+-----------------------------------------------------
+Network 13
+Number of interactors: 18
+Gene list:
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+ At5g15850 (COL1)
+ At3g48360 (BT2)
+ At1g71030 (ATMYBL2)
+ At1g03130 (PSAD2)
+ At1g14280 (PKS2)
+ At3g16250 (PNSB3)
+ At4g02770 (psaD1)
+ At3g28220
+ At1g29910 (AB180)
+ At2g17880 (DJC24)
+ At5g20250 (RFS6)
+ At1g37130 (NIA2)
+ At1g29920 (AB165)
+ At2g34420 (Lhb1B2)
+ At3g49160 (PKP4)
+ At1g76080 (CDSP32)
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0009416 (response to light stimulus)
+ GO:0042128 (nitrate assimilation)
+ GO:0006096 (glycolytic process)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 14
+Number of interactors: 2
+Gene list:
+ At3g49160 (PKP4)
+ At3g21870
+KEGG pathway: ath00010 (Glycolysis / Gluconeogenesis)
+GO terms: 
+ GO:0016310 (phosphorylation)
+ GO:0051301 (cell division)
+ GO:0007049 (cell cycle)
+ GO:0006096 (glycolytic process)
+-----------------------------------------------------
+Network 15
+Number of interactors: 6
+Gene list:
+ At5g43750 (PNSB5)
+ At4g22890 (PGRL1A)
+ At1g69870
+ At3g61260
+ At5g38990
+ At5g11070
+KEGG pathway: Not found
+GO terms: 
+ GO:0055085 (transmembrane transport)
+ GO:0006468 (protein phosphorylation)
+ GO:0016310 (phosphorylation)
+ GO:0006979 (response to oxidative stress)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+-----------------------------------------------------
+Network 16
+Number of interactors: 2
+Gene list:
+ At3g48360 (BT2)
+ At3g54050 (CFBP1)
+KEGG pathway: ath00010 (Glycolysis / Gluconeogenesis)
+GO terms: 
+ GO:0006094 (gluconeogenesis)
+ GO:0042542 (response to hydrogen peroxide)
+ GO:0009737 (response to abscisic acid)
+ GO:0005975 (carbohydrate metabolic process)
+ GO:0016311 (dephosphorylation)
+-----------------------------------------------------
+Network 17
+Number of interactors: 9
+Gene list:
+ At5g14740 (BCA2)
+ At3g61260
+ At5g15850 (COL1)
+ At3g16250 (PNSB3)
+ At3g62410
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+ At3g49160 (PKP4)
+ At2g30950 (FTSH2)
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0006357 (regulation of transcription by RNA polymerase II)
+ GO:0048511 (rhythmic process)
+ GO:0016310 (phosphorylation)
+ GO:0006508 (proteolysis)
+ GO:0006096 (glycolytic process)
+-----------------------------------------------------
+Network 18
+Number of interactors: 6
+Gene list:
+ At5g17300 (RVE1)
+ At4g17460 (HAT1)
+ At1g71030 (ATMYBL2)
+ At3g48360 (BT2)
+ At1g76080 (CDSP32)
+ At4g37610 (BT5)
+KEGG pathway: Not found
+GO terms: 
+ GO:0009737 (response to abscisic acid)
+ GO:0009751 (response to salicylic acid)
+ GO:0016567 (protein ubiquitination)
+ GO:0009409 (response to cold)
+ GO:0042542 (response to hydrogen peroxide)
+-----------------------------------------------------
+Network 19
+Number of interactors: 9
+Gene list:
+ At5g43750 (PNSB5)
+ At1g69870
+ At4g22890 (PGRL1A)
+ At5g38990
+ At3g28220
+ At3g61260
+ At3g16250 (PNSB3)
+ At4g09010 (TL29)
+ At4g39710 (PNSL4)
+KEGG pathway: ath00053 (Ascorbate and aldarate metabolism)
+GO terms: 
+ GO:0000302 (response to reactive oxygen species)
+ GO:0098869 (cellular oxidant detoxification)
+ GO:0006979 (response to oxidative stress)
+ GO:0034599 (cellular response to oxidative stress)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+-----------------------------------------------------
+Network 20
+Number of interactors: 7
+Gene list:
+ At5g15850 (COL1)
+ At5g17300 (RVE1)
+ At4g17460 (HAT1)
+ At1g03130 (PSAD2)
+ At3g16250 (PNSB3)
+ At1g37130 (NIA2)
+ At5g48300 (APS1)
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0009635 (response to herbicide)
+ GO:0015979 (photosynthesis)
+ GO:0019252 (starch biosynthetic process)
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0042128 (nitrate assimilation)
+-----------------------------------------------------
+Network 21
+Number of interactors: 9
+Gene list:
+ At4g17460 (HAT1)
+ At1g71030 (ATMYBL2)
+ At4g02770 (psaD1)
+ At1g03130 (PSAD2)
+ At4g22890 (PGRL1A)
+ At3g16250 (PNSB3)
+ At2g17880 (DJC24)
+ At1g37130 (NIA2)
+ At3g62550
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0006357 (regulation of transcription by RNA polymerase II)
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0042128 (nitrate assimilation)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------

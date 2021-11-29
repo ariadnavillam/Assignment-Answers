@@ -1,0 +1,63 @@
+-----------------------------------------------------
+Network 1
+Number of interactors: 10
+Gene list:
+ At1g76080 (CDSP32)
+ At1g03130 (PSAD2)
+ At1g37130 (NIA2)
+ At4g02770 (psaD1)
+ At4g17460 (HAT1)
+ At5g15850 (COL1)
+ At5g17300 (RVE1)
+ At4g09650 (ATPD)
+ At1g14280 (PKS2)
+ At1g71030 (ATMYBL2)
+KEGG pathway: ath00195 (Photosynthesis)
+GO terms: 
+ GO:0030154 (cell differentiation)
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0015986 (ATP synthesis coupled proton transport)
+ GO:0042128 (nitrate assimilation)
+ GO:0015979 (photosynthesis)
+-----------------------------------------------------
+Network 2
+Number of interactors: 2
+Gene list:
+ At4g22890 (PGRL1A)
+ At5g55620
+KEGG pathway: Not found
+GO terms: 
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+-----------------------------------------------------
+Network 3
+Number of interactors: 8
+Gene list:
+ At4g17460 (HAT1)
+ At5g17300 (RVE1)
+ At1g14280 (PKS2)
+ At1g76080 (CDSP32)
+ At1g71030 (ATMYBL2)
+ At5g15850 (COL1)
+ At1g37130 (NIA2)
+ At4g02770 (psaD1)
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0009909 (regulation of flower development)
+ GO:0009635 (response to herbicide)
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0015979 (photosynthesis)
+ GO:0042128 (nitrate assimilation)
+-----------------------------------------------------
+Network 4
+Number of interactors: 3
+Gene list:
+ At4g22890 (PGRL1A)
+ At1g37130 (NIA2)
+ At3g62550
+KEGG pathway: ath00910 (Nitrogen metabolism)
+GO terms: 
+ GO:0009635 (response to herbicide)
+ GO:0006809 (nitric oxide biosynthetic process)
+ GO:0042128 (nitrate assimilation)
+ GO:0009773 (photosynthetic electron transport in photosystem I)
+-----------------------------------------------------
