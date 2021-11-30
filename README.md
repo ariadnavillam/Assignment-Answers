@@ -32,4 +32,31 @@ $ ruby main.rb gene_file.txt output.txt [intact-miscore] [depth]
 ### Requirements
 **Gems**: "rest-client", "CSV" and "json" must be installed.
 
+## Assignment 3 - GFF feature files and visualization
+
+The purpose of this script is to search for CTTCTT motifs the exons of a list of genes using BioRuby. It takes the file with the genes and retrieves the EMBL entry, obtaining the sequence of the gene, the exons, the chromosome position, etc. and searches for the CTTCTT motifs in this exons using regular expressions. It also looks for AAGAAG motif since the sequenced used is the one of the coding exon, so there could be a CTTCTT motif in the complementary strand. 
+
+Use:
+
+```bash
+$ ruby main.rb  genes_list.txt
+```
+
+Ouput:
+- *genes.gff3*: gff3 file contaning the motifs with the gene coordinates (I added the 4 since it's the one corresponding to that exercise).
+- *chromosome.gff3*: gff3 file containing the motifs with chromosome coordinates. In the attributes columns (the last one) prints out the exons contaning the motifs (exercise 5).
+- *genes_wo_motif.txt*: list of genes in which a CTTCTT motif was not found.
+
+Screenshot of gff3 file in Ensemble:
+
+![Ensembl Screenshot](https://github.com/ariadnavillam/Assignment-Answers/Assignment3/Ensembl-screenshot.png)
+
+*The file I used for this is called *chromosome_ensembl.gff3* and is the same as chromosme.gff3 but changing the attributes column and only mantaining the IDs. It wouldn't let see the features if I introduced the file with this extra attributes.
+
+### Requirements
+**Gems**: 'net/http' and 'bio' should be installed.
+
+
+
+
 
