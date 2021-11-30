@@ -51,10 +51,10 @@ def print_gff_line(feature, seq_id, geneid, chr_ini = 0, source ="." )
   id = "ID=#{feature.assoc["id"]}"
   notes = "Note=#{feature.assoc["notes"]}"
   parent = "Parent=#{geneid}"
-  att = [id] #change to create the file to upload to ensembl
-  #att = [id,parent,notes]
+  #att = [id] #change to create the file to upload to ensembl
+  att = [id,parent,notes]
   if chr_ini.to_i != 0
-    chr_ini = chr_ini.to_i-1 #substract 1 to the 
+    chr_ini = chr_ini.to_i-1 #substract 1 to the chromosome position
   end
   output_array = [seq_id, source, feature.feature, chr_ini+ini, chr_ini+fin,".", feature.assoc["strand"],".",att.join(";")]
   return output_array.join("\t")
