@@ -49,7 +49,7 @@ Ouput:
 
 Screenshot of gff3 file in Ensemble:
 
-![Ensembl Screenshot](https://github.com/ariadnavillam/Assignment-Answers/Assignment3/Ensembl-screenshot.png)
+![Ensembl Screenshot](https://github.com/ariadnavillam/Assignment-Answers/blob/main/Assignment3/Ensembl-screenshot.png)
 
 *The file I used for this is called *chromosome_ensembl.gff3* and is the same as chromosme.gff3 but changing the attributes column and only mantaining the IDs. It wouldn't let see the features if I introduced the file with this extra attributes.
 
