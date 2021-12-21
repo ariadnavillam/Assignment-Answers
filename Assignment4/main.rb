@@ -16,6 +16,8 @@ def perform_blast(db, seq, filter)
         if result.hits[0].evalue <= filter
             best = result.hits[0].definition.match(/^([^|]+)|/) #only keep the id of the sequence
             return "#{best}"
+        else
+            return nil
         end
     else
         return nil
@@ -140,7 +142,6 @@ file1.each_entry do |entry|
     best_2 = perform_blast(blast_db1, file2_seq[best_1.strip], score_filter)
     next if best_2.nil?
     
-    print entry.entry_id + best_2 + best_1 + "\n"
     if entry.entry_id == best_2.strip #only if the entry id is the same as the one returned in the second blast we write the ids
         out_file = File.open(output_path, "a")
         out_file.puts "#{entry.entry_id}\t#{best_1}"
