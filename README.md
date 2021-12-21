@@ -57,6 +57,44 @@ Screenshot of gff3 file in Ensemble:
 **Gems**: 'net/http' and 'bio' should be installed.
 
 
+## Assignment 4 - Searching for Orthologues
 
+Putative orthologs search is made using local blast. For that purpose, a reciprocal best BLAST is made. 
+
+Parameter to filter:
+As stated in (1) and (2), to filter the searches I will use a maximum evalue of $10^-6$. The lower the E-value, or the closer it is to zero, the more "significant" the match is. In {blast webpage}[https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ] they also recommend using the e-value for significance threshold. However, we have to take into account that higher e-values are more common in short alignments, because the probability of finding shorter sequences is higher. We could be leaving out some identical matches of short sequences.
+
+Use:
+
+```bash
+$ ruby main.rb  file_species1.fa file_species2.fa outputfile.txt ([evalue])
+```
+- *file_species1.fa*: fasta file with genes of species 1.
+- *file_species2.fa*: fasta file with genes of species 2.
+- *outputfile.txt*: file to save the output 
+- *\[evalue]\(optional)*: evalue to filter the homology. The recommended value is 1e-6, which is the default value in the script.
+
+
+Output:
+The output is a txt file with two colums, named after the input files. 
+
+To continue the analysis...
+In the datafiles we have for this assignment we have a dataset of nucleic acids and another one of proteins. In the nucleic acids file, the genes could have introns, exons or regulatory sequences. If we had both files with proteins we could also consider to filter by coverage of 50%, which is also proposed in (2). We could also compare the GOs of the putative orthologs. This was proposed in (3) although they argue that there are differences in GO annotations depending on the species. However, it was found the orhologs had more common GO annotations than paralogs. 
+
+Another approach could be comparing the phylogentic tree of the species, as proposed in (4), although we need a small set of genes for that. 
+
+It seems like finding orthologs is not as easy as it seems, since there is an open collaboration framework called "Quest for Orthologs" currently developing a standard methodology. It is formed by experts in comparative phylogenomics and related research areas who have an interest in highly accurate orthology predictions and their applications (5).
+
+References:
+1. Gabriel Moreno-Hagelsieb, Kristen Latimer, Choosing BLAST options for better detection of orthologs as reciprocal best hits, Bioinformatics, Volume 24, Issue 3, 1 February 2008, Pages 319–324, [https://doi.org/10.1093/bioinformatics/btm585]
+2. Ward N, Moreno-Hagelsieb G (2014) Quickly Finding Orthologs as Reciprocal Best Hits with BLAT, LAST, and UBLAST: How Much Do We Miss?. PLOS ONE 9(7): e101850. [https://doi.org/10.1371/journal.pone.0101850]
+3. Altenhoff AM, Studer RA, Robinson-Rechavi M, Dessimoz C (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs. PLOS Computational Biology 8(5): e1002514. [https://doi.org/10.1371/journal.pcbi.1002514]
+4. David M. Kristensen, Yuri I. Wolf, Arcady R. Mushegian, Eugene V. Koonin, Computational methods for Gene Orthology inference, Briefings in Bioinformatics, Volume 12, Issue 5, September 2011, Pages 379–391, [https://doi.org/10.1093/bib/bbr030]
+Kristoffer Forslund, Cecile Pereira, Salvador Capella-Gutierrez, Alan Sousa da Silva, Adrian Altenhoff, Jaime Huerta-Cepas, Matthieu Muffato, Mateus Patricio, Klaas Vandepoele, Ingo Ebersberger, Judith Blake, Jesualdo Tomás Fernández Breis, The Quest for Orthologs Consortium, Brigitte Boeckmann, Toni Gabaldón, Erik Sonnhammer, Christophe Dessimoz, Suzanna Lewis, Quest for Orthologs Consortium, Gearing up to handle the mosaic nature of life in the quest for orthologs, Bioinformatics, Volume 34, Issue 2, 15 January 2018, Pages 323–329, [https://doi.org/10.1093/bioinformatics/btx542]
+
+
+### Requirements
+**Gems**: 'bio' should be installed.
+Blast should also be installed locally ([https://blast.ncbi.nlm.nih.gov/Blast.cgi]).
 
 
