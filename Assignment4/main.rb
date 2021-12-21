@@ -2,7 +2,7 @@
 
 require 'bio'
 
-#function 
+#functions
 
 def perform_blast(db, seq, filter)
     '''
