@@ -99,4 +99,9 @@ Kristoffer Forslund, Cecile Pereira, Salvador Capella-Gutierrez, Alan Sousa da S
 **Gems**: 'bio' should be installed.
 Blast should also be installed locally ([https://blast.ncbi.nlm.nih.gov/Blast.cgi]).
 
+## Assignment 5 - SPARQL queries
 
+Retrieve information from the web using SPARQL kernel in Jupyter-Notebook. 
+
+### Requirements
+SPARQL kernel 
