@@ -101,7 +101,7 @@ Blast should also be installed locally ([https://blast.ncbi.nlm.nih.gov/Blast.cg
 
 ## Assignment 5 - SPARQL queries
 
-Retrieve information from the web using SPARQL kernel in Jupyter-Notebook.The file contains the answers to the questions proposes. 
+Retrieve information from the web using SPARQL kernel in Jupyter-Notebook.The file contains the answers to the questions proposed. 
 
 ### Requirements
 Jupyter-Notebook 
